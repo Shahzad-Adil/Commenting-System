@@ -320,7 +320,7 @@
         }
 
         //Pusher
-        var pusher = new Pusher('766381460178fd97f49b', {
+        var pusher = new Pusher('{{ env('PUSHER_APP_KEY') }}', {
             cluster: 'ap2'
         });
 
